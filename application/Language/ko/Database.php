@@ -14,8 +14,8 @@
  * @codeCoverageIgnore
  */
 return [
-    'invalidEvent'         => '{0} : 유효하지 않은 모델 이벤트 콜백', //'{0} is not a valid Model Event callback.',
-    'invalidArgument'      => '{0} : 유효하지 않습니다.', //'You must provide a valid {0}.',
+    'invalidEvent'         => '{0} 모델 이벤트 콜백 유효하지 않습니다.', //'{0} is not a valid Model Event callback.',
+    'invalidArgument'      => '{0} 인수는 유효하지 않습니다.', //'You must provide a valid {0}.',
     'invalidAllowedFields' => '{0} 모델에 허용된 필드를 지정해야 합니다.', //'Allowed fields must be specified for model: {0}',
     'emptyDataset'         => '{0}에 데이터가 없습니다.', //'There is no data to {0}.',
 ];

@@ -14,5 +14,5 @@
  * @codeCoverageIgnore
  */
 return [
-    'invalidLogLevel' => '{0} : 로그 레벨이 유효하지 않습니다.', //'{0} is an invalid log level.',
+    'invalidLogLevel' => '유효하지 않은 로그 레벨 : {0}', //'{0} is an invalid log level.',
 ];

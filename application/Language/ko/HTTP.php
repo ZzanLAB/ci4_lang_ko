@@ -30,12 +30,12 @@ return [
     'emptySupportedNegotiations' => 'Negotiation을 위한 배열값이 필요합니다.', //'You must provide an array of supported values to all Negotiations.',
 
     // RedirectResponse
-    'invalidRoute'               => '{0, string} : 유효하지 않은 라우트', //'{0, string} is not a valid route.',
+    'invalidRoute'               => '유효하지 않은 라우트 : {0, string}', //'{0, string} is not a valid route.',
 
     // Response
     'missingResponseStatus'      => 'HTTP 응답에 상태코드가 없습니다.', //'HTTP Response is missing a status code',
-    'invalidStatusCode'          => '{0, string} : 유효한 HTTP 상태코드가 아닙니다.', //'{0, string} is not a valid HTTP return status code',
-    'unknownStatusCode'          => '{0} : 알 수 없는 HTTP 상태코드', //'Unknown HTTP status code provided with no message: {0}',
+    'invalidStatusCode'          => '유효하지 않은 HTTP 상태코드 : {0, string}', //'{0, string} is not a valid HTTP return status code',
+    'unknownStatusCode'          => '알 수 없는 HTTP 상태코드 : {0}', //'Unknown HTTP status code provided with no message: {0}',
 
     // URI
     'cannotParseURI'             => '{0} : URI을 분석할 수 없습니다.', //'Unable to parse URI: {0}',
@@ -46,8 +46,8 @@ return [
     // Page Not Found
     'pageNotFound'               => '페이지를 찾을 수 없습니다.', //'Page Not Found',
     'emptyController'            => '컨트롤러가 지정되지 않았습니다.', //'No Controller specified.',
-    'controllerNotFound'         => '{0}::{1} : 컨트롤러 또는 메서드를 찾을 수 없습니다.', //'Controller or its method is not found: {0}::{1}',
-    'methodNotFound'             => '{0} : 메서드를 찾을 수 없습니다.', //'Controller method is not found: {0}',
+    'controllerNotFound'         => '{0}::{1} 컨트롤러 또는 메서드를 찾을 수 없습니다.', //'Controller or its method is not found: {0}::{1}',
+    'methodNotFound'             => '{0} 메서드를 찾을 수 없습니다.', //'Controller method is not found: {0}',
 
     // CSRF
     'disallowedAction'           => '허용되지 않는 동작입니다.', //'The action you requested is not allowed.',

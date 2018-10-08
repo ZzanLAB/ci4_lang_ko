@@ -14,6 +14,6 @@
  * @codeCoverageIgnore
  */
 return [
-    'invalidJSON'      => '{0} : JSON 파싱 실패', //'Failed to parse json string, error: "{0}".',
+    'invalidJSON'      => 'JSON 파싱 실패 : {0}', //'Failed to parse json string, error: "{0}".',
     'missingExtension' => 'XML 형식을 지정하기 위해 SimpleXML이 필요합니다.', //'The SimpleXML extension is required to format XML.',
 ];

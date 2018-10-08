@@ -15,7 +15,7 @@
  */
 return [
     'mustBeArray'          => '이메일 유효성 검사에는 배열을 사용해야 합니다.', //'The email validation method must be passed an array.',
-    'invalidAddress'       => '{0} : 유효하지 않은 이메일', //'Invalid email address: {0}',
+    'invalidAddress'       => '유효하지 않은 이메일 : {0}', //'Invalid email address: {0}',
     'attachmentMissing'    => '{0} : 해당 이메일 첨부파일을 찾을 수 없습니다.', //'Unable to locate the following email attachment: {0}',
     'attachmentUnreadable' => '{0} : 해당 첨부파일을 열 수 없습니다.', //'Unable to open this attachment: {0}',
     'noFrom'               => '"보낸 사람" 헤더 없이는 메일을 보낼 수 없습니다.', //'Cannot send mail with no "From" header.',
@@ -32,5 +32,5 @@ return [
     'SMTPAuthUsername'     => 'SMTP 오류 : 사용자 ID 인증 실패 ({0})', //'Failed to authenticate username. Error: {0}',
     'SMTPAuthPassword'     => 'SMTP 오류 : 사용자 Password 인증 실패 ({0})', //'Failed to authenticate password. Error: {0}',
     'SMTPDataFailure'      => 'SMTP 오류 : 데이터 송신 실패 ({0})', //'Unable to send data: {0}',
-    'exitStatus'           => '{0} : 상태코드 종료', //'Exit status code: {0}',
+    'exitStatus'           => '상태코드 종료 : {0}', //'Exit status code: {0}',
 ];
