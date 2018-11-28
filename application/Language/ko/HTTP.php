@@ -32,6 +32,13 @@ return [
     // RedirectResponse
     'invalidRoute'               => '유효하지 않은 라우트 : {0, string}', //'{0, string} is not a valid route.',
 
+    // DownloadResponse
+    'cannotSetBinary'            => '파일 경로를 설정하면 바이너리를 설정할 수 없습니다.', //'When setting filepath can not set binary.',
+    'cannotSetFilepath'          => '바이너리를 설정할 때 파일 경로를 설정할 수 없습니다. : {0}', //'When setting binary can not set filepath: {0}',
+    'notFoundDownloadSource'     => '본문 소스를 찾을 수 없습니다.', //'Not found download body source.',
+    'cannotSetCache'             => '다운로드 캐싱을 지원하지 않습니다.', //'It does not supported caching for downloading.',
+    'cannotSetStatusCode'        => '다운로드의 상태 코드 변경을 지원하지 않습니다.', //'It does not supported change status code for downloading. code: {0}, reason: {1}',
+
     // Response
     'missingResponseStatus'      => 'HTTP 응답에 상태코드가 없습니다.', //'HTTP Response is missing a status code',
     'invalidStatusCode'          => '유효하지 않은 HTTP 상태코드 : {0, string}', //'{0, string} is not a valid HTTP return status code',
